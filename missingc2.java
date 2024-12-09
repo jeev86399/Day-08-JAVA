@@ -9,8 +9,8 @@ public class missingc2{
         Arrays.sort(arr);
         int max=arr[n-1];
         int c[]=new int[max+1];
-        System.out.println("missing number in count array:")
-;        for(int i=0;i<n;i++)
+        System.out.println("missing number in count array:");
+        for(int i=0;i<n;i++)
             c[arr[i]]++;
         for(int i=0;i<max;i++){
             if (c[i]==0)
